@@ -9,6 +9,8 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    background: rgb(90,90,90);
+    background: radial-gradient(circle, rgba(90,90,90,1) 0%, rgba(35,35,35,1) 100%);
 }
 h2{
     color: #3C3C3C;
