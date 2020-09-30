@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@import url(menu.css);
-@import url(banner.css);
+
 @import url(blog.css);
 @import url(info.css);
 
@@ -15,6 +14,12 @@ body{
     font-family: 'Open Sans', sans-serif;
     background: #005430;
     
+}
+.banner img{
+    width: 90%;
+    height: 380px;
+    
+
 }
 }
 header{
