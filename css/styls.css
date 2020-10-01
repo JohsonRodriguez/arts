@@ -153,7 +153,7 @@ height: auto;
 
 @media(min-width:1024px){
     .section2 img{
-        
+        padding: 10px;
         margin: 0 auto;
         display: block;
         width: 320px;
