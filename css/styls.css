@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: #81258A;
+}
+
+.fondo1{
+    width: 98%;
+    height: 600px;
+    display: block;
+    background: orange;
+    margin: 20px;
+    transform: rotate(-1deg);
+}
+
+.fondo2{
+    width: 98%;
+    height: 600px;
+    background: white;
+    display: block;
+    margin: 10px;
+    transform: rotate(1deg);
+}
+
+.section1{
+    padding: 30px;
+    display: block;
+}
+.insignia{
+    width: 70px;
+    height: 70px;
+}
+
+.lema{
+    width: 550px;
+    height: 60px;
+
+}
+.ib{
+    width: 70px;
+    height: 70px;
+
+}
