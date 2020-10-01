@@ -74,6 +74,9 @@ height: auto;
 
 
 @media (min-width:320px){
+    body{
+        overflow: visible;
+    }
     .section2 img{
         padding-top: 10px;
         margin: 0 auto;
@@ -149,6 +152,11 @@ height: auto;
     .ib{
         width: 70px;
         height: 70px;
+    }
+    .menu div {
+        padding: 0px;
+        text-align: center;
+       
     }
 
 }
