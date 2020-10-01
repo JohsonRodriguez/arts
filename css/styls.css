@@ -70,7 +70,73 @@ height: auto;
     height: 1550x;
 
 }
+
+
+
+@media (min-width:320px){
+    .section2 img{
+        padding-top: 10px;
+        margin: 0 auto;
+        display: block;
+        width: 220px;
+        height: 250px;
+    
+    }
+   
+    .insignia{
+        width: 30px;
+       height: 30px;
+    }
+    
+    .lema{
+        width: 200px;
+        height: 25px;
+    }
+    .ib{
+        width: 30px;
+        height: 30px;
+    }
+    .menu {
+        display: block;
+       
+    }
+    .menu div {
+        padding: 10px;
+        text-align: center;
+       
+    }
+
+}
+@media(min-width:768px){
+   
+
+    .insignia{
+        width: 60px;
+       height: 60px;
+    }
+    
+    .lema{
+        width: 350px;
+        height: 40px;
+    }
+    .ib{
+        width: 50px;
+        height: 50px;
+    }
+    .menu{
+        display: flex;
+    }
+}
+
 @media(min-width:1024px){
+    .section2 img{
+        
+        margin: 0 auto;
+        display: block;
+        width: 320px;
+        height: 350px;
+    
+    }
     .insignia{
         width: 70px;
        height: 70px;
@@ -83,71 +149,6 @@ height: auto;
     .ib{
         width: 70px;
         height: 70px;
-    }
-
-}
-@media(max-width:992px){
-
-    .insignia{
-        width: 40px;
-       height: 40px;
-    }
-    
-    .lema{
-        width: 250px;
-        height: 30px;
-    }
-    .ib{
-        width: 40px;
-        height: 40px;
-    }
-}
-@media(max-width:768px){
-    .section1 div{
-        padding: 10px;
-    }
-    .section2{
-        padding: 20px;
-    }
-    .section2 img{
-        
-        margin: 0 auto;
-        display: block;
-        width: 220px;
-        height: 250px;
-    
-    }
-
-    .insignia{
-        width: 40px;
-       height: 40px;
-    }
-    
-    .lema{
-        width: 250px;
-        height: 30px;
-    }
-    .ib{
-        width: 40px;
-        height: 40px;
-    }
-}
-@media (max-width:300px){
-    .section1 div{
-        padding: 5px;
-    }
-    .insignia{
-        width: 10px;
-       height: 10px;
-    }
-    
-    .lema{
-        width: 25px;
-        height: 5px;
-    }
-    .ib{
-        width: 10px;
-        height: 10px;
     }
 
 }
