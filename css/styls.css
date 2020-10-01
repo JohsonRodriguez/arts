@@ -103,6 +103,20 @@ height: auto;
     }
 }
 @media(max-width:768px){
+    .section1 div{
+        padding: 10px;
+    }
+    .section2{
+        padding: 20px;
+    }
+    .section2 img{
+        
+        margin: 0 auto;
+        display: block;
+        width: 220px;
+        height: 250px;
+    
+    }
 
     .insignia{
         width: 40px;
@@ -118,7 +132,7 @@ height: auto;
         height: 40px;
     }
 }
-@media (max-width:360px){
+@media (max-width:300px){
     .section1 div{
         padding: 5px;
     }
