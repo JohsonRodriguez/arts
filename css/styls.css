@@ -79,6 +79,14 @@ body{
 
 }
 
+.pyp img{
+    margin: 0 auto;
+    display: block;
+    width: 520px;
+    height: 350px;
+
+}
+
 @media (min-width:320px){
     body{
         overflow: visible;
