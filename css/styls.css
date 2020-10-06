@@ -71,6 +71,7 @@ body{
 .volver{
     text-align: center;
 }
+
 .volver a{
     text-decoration: none;
     color: #666666;
@@ -79,6 +80,19 @@ body{
     margin: 0 auto;
 
 }
+.return{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.return a{
+    text-decoration: none;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
 .link{
     
     width: 90px;
