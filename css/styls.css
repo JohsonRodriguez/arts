@@ -4,6 +4,10 @@
     box-sizing: border-box;
     
 }
+@font-face{
+    font-family: 'thanks';
+    src: url(../font/Thankyou.ttf);
+}
 
 body{
     background: #ffffff;
