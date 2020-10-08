@@ -48,7 +48,7 @@ body{
     justify-content: space-around;
 }
 .menu_letras{
-    padding-top: 10px;
+    padding-top: 30px;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -116,7 +116,15 @@ body{
     display: block;
     width: 620px;
     height: 450px;
+    padding-bottom: 10px;
 
+}
+.pyp div p{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-family: 'Nunito-Bold', arial;
 }
 
 @media (min-width:320px){
