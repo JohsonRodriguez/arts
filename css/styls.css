@@ -48,14 +48,16 @@ body{
     justify-content: space-around;
 }
 .menu_letras{
+    padding-top: 10px;
     width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
 }
 .menu_letras a{
+
     text-decoration: none;
-    color: #FFFFFF;
+    color: #F4A61D;
     font-family:  'Thanks';
     font-size: 18px;
     padding: 20px;
