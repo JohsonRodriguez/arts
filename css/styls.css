@@ -23,11 +23,8 @@ body{
 .section1{
     width: 98%;
     padding: 0px;
-    margin: 0 auto;
-    justify-content: center;
     display: flex;
-    
-}
+    }
 .gallery div{
     margin: 0 auto;
     display: block;
@@ -37,17 +34,18 @@ body{
 }
 
 .section2{
-    margin-top: -30px;
+    margin-top: -120px;
+    
 }
 
 .section2 img{
     margin: 0 auto;
     display: block;
-    width: 320px;
-    height: 350px;
+   
 
 }
 .menu{
+    
     width: 70%;
     margin: 0 auto;
     display: flex;
@@ -94,7 +92,7 @@ body{
 
 }
 .return{
-    padding-top: 30px;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -108,12 +106,12 @@ body{
 
 .link{
     
-    width: 90px;
-    height: 95px;
+    width: 100px;
+    height: auto;
 }
 
  .diploma {
-    width: 130px;
+    width: 150px;
     height: auto;
 
 }
@@ -121,8 +119,8 @@ body{
 .pyp img{
     margin: 0 auto;
     display: block;
-    width: 620px;
-    height: 450px;
+    width: 700px;
+    height: 500px;
     padding-bottom: 10px;
 
 }
@@ -132,6 +130,7 @@ body{
     display: block;
     text-align: center;
     font-family: "Nunito";
+    font-size: 15px;
 }
 
 @media (min-width:320px){
@@ -199,8 +198,8 @@ body{
         padding: 10px;
         margin: 0 auto;
         display: block;
-        width: 420px;
-        height: 450px;
+        width: 520px;
+        height: 550px;
     
     }
     .insignia{
@@ -217,6 +216,7 @@ body{
         height: 70px;
     }
     .menu div {
+        margin-top: -30px;
         padding: 5px;
         display: flex;
        
