@@ -121,7 +121,7 @@ body{
     display: block;
     width: 700px;
     height: 500px;
-    padding-bottom: 10px;
+    padding-bottom: 1px;
 
 }
 .pyp div p{
@@ -130,7 +130,7 @@ body{
     display: block;
     text-align: center;
     font-family: "Nunito";
-    font-size: 15px;
+    font-size: 13px;
 }
 
 @media (min-width:320px){
