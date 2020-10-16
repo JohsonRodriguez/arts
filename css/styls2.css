@@ -45,7 +45,7 @@ body{
 
 }
 .menu{
-    
+    padding-top: 30px;
     width: 70%;
     margin: 0 auto;
     display: flex;
@@ -70,27 +70,6 @@ body{
 }
 
 
-.titulo{
-    color: #802785;
-    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: bold;
-    padding: 20px;
-    
-}
-.volver{
-    text-align: center;
-}
-
-.volver a{
-    text-decoration: none;
-    color: #666666;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin: 0 auto;
-
-}
 .return{
     padding-top: 10px;
     text-align: center;
@@ -106,19 +85,19 @@ body{
 
 .link1{
     
-    width: 180px;
-    height: 100px;
+    width: 140px;
+    height: 80px;
 }
 
 .link{
     
-    width: 180px;
-    height: 100px;
+    width: 140px;
+    height: 80px;
 }
 
  .diploma {
-    width: 270px;
-    height: 100px;
+    width: 210px;
+    height: 80px;
 
 }
 
@@ -130,13 +109,17 @@ body{
     padding-bottom: 1px;
 
 }
-.pyp div p{
+.section3{
+    margin-top: -20px;
+}
+.section3 div p{
+    
     width: 80%;
     margin: 0 auto;
     display: block;
     text-align: center;
     font-family: "Nunito";
-    font-size: 13px;
+    font-size: 33px;
 }
 
 @media (min-width:320px){
@@ -204,8 +187,8 @@ body{
         padding: 10px;
         margin: 0 auto;
         display: block;
-        width: 620px;
-        height: 550px;
+        width: 600px;
+        height: 530px;
     
     }
     .insignia{
