@@ -25,6 +25,7 @@ body{
     width: 98%;
     padding: 0px;
     display: flex;
+    justify-content: space-between;
     }
 .gallery div{
     margin: 0 auto;
@@ -188,8 +189,8 @@ body{
         padding: 10px;
         margin: 0 auto;
         display: block;
-        width: 600px;
-        height: 530px;
+        width: 630px;
+        height: 560px;
     
     }
     .insignia{
