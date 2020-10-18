@@ -16,8 +16,10 @@
 }
 
 body{
-    background-color: #2EAEB7;
-    background-image: linear-gradient(160deg, #2EAEB7 0%, #2EAE 50%);
+    background-color: #2eaeb7;
+background-image: linear-gradient(162deg, #2eaeb7 0%, #80D0C7 100%);
+
+    
     overflow: hidden;
 }
 
@@ -88,18 +90,18 @@ body{
 .link1{
     
     width: 140px;
-    height: 80px;
+    height: 100px;
 }
 
 .link{
     
     width: 140px;
-    height: 80px;
+    height: 100px;
 }
 
  .diploma {
     width: 210px;
-    height: 80px;
+    height: 100px;
 
 }
 
@@ -189,7 +191,7 @@ body{
         padding: 10px;
         margin: 0 auto;
         display: block;
-        width: 630px;
+        width: 850px;
         height: 560px;
     
     }
