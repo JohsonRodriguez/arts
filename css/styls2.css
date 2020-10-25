@@ -52,6 +52,7 @@ background: radial-gradient(circle, rgba(66,147,212,1) 0%, rgba(18,68,140,1) 100
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .menu_letras{
     padding-top: 30px;
