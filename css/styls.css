@@ -20,12 +20,41 @@ body{
     overflow: hidden;
 }
 
+/** css index inicio*/
 .section1{
     width: 98%;
     padding: 0px;
     display: flex;
     justify-content: space-between;
     }
+
+    .insignia{
+        width: 70px;
+       height: 70px;
+    }
+        
+    .ib{
+        width: 70px;
+        height: 70px;
+    }
+
+    .link{
+    
+        width: 100px;
+        height: auto;
+    }
+    
+     .diploma {
+        width: 150px;
+        height: auto;
+    
+    }
+
+/** css index fin*/
+ 
+ 
+
+
 .gallery div{
     margin: 0 auto;
     display: block;
@@ -36,7 +65,6 @@ body{
 
 .section2{
     margin-top: -120px;
-    
 }
 
 .section2 img{
@@ -105,17 +133,7 @@ body{
     margin: 0 auto;
 }
 
-.link{
-    
-    width: 100px;
-    height: auto;
-}
 
- .diploma {
-    width: 150px;
-    height: auto;
-
-}
 .logodiploma img{
     margin: 0 auto;
     display: block;
@@ -156,30 +174,21 @@ body{
         width: 100%;
         height: 100%;
     }
+    .section2{
+        margin-top: -50px;
+    }
+    
     .section2 img{
         padding-top: 10px;
         margin: 0 auto;
         display: block;
-        width: 220px;
-        height: 250px;
+        width: 260px;
+        height: 290px;
     
     }
    
-    .insignia{
-        width: 30px;
-       height: 30px;
-    }
-    
-    .lema{
-        width: 200px;
-        height: 25px;
-    }
-    .ib{
-        width: 30px;
-        height: 30px;
-    }
     .menu {
-        display: block;
+        display: flex;
        
     }
     .menu div {
@@ -187,24 +196,22 @@ body{
         text-align: center;
        
     }
+    .link{
+    
+        width: 100px;
+        height: auto;
+    }
+    
+     .diploma {
+        width: 150px;
+        height: auto;
+    
+    }
 
 }
 @media(min-width:768px){
    
-
-    .insignia{
-        width: 60px;
-       height: 60px;
-    }
-    
-    .lema{
-        width: 350px;
-        height: 40px;
-    }
-    .ib{
-        width: 50px;
-        height: 50px;
-    }
+   
     .menu{
         display: flex;
     }
@@ -219,19 +226,7 @@ body{
         height: 550px;
     
     }
-    .insignia{
-        width: 70px;
-       height: 70px;
-    }
-    
-    .lema{
-        width: 450px;
-        height: 50px;
-    }
-    .ib{
-        width: 70px;
-        height: 70px;
-    }
+  
     .menu div {
         margin-top: -30px;
         padding: 5px;
