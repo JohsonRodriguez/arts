@@ -1,0 +1,150 @@
+@import url(fuentes.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/** css index inicio*/
+
+.logo img{
+    margin: 0 auto;
+    display: block;
+    
+    
+
+}
+.logo div p{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 13px;
+}
+
+
+/** css index fin*/
+
+
+
+
+
+
+
+
+.gallery div{
+    margin: 0 auto;
+    display: block;
+}
+.section1 div{
+    padding: 20px;
+}
+
+
+
+.section2 img{
+    margin: 0 auto;
+    display: block;
+   
+
+}
+
+.menu_letras{
+    padding-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.menu_letras a{
+
+    text-decoration: none;
+    color: #F4A61D;
+    font-family:  'Thanks';
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+   
+}
+
+
+.titulo{
+    color: #802785;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px;
+    
+}
+.volver{
+    text-align: center;
+}
+
+.volver a{
+    text-decoration: none;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+
+}
+.return{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.return a{
+    text-decoration: none;
+    color: #666666;
+    font-family: "Nunito";
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+
+.logodiploma img{
+    margin: 0 auto;
+    display: block;
+    width: 520px;
+    height: 350px;
+    padding-bottom: 1px;
+
+}
+.logodiploma div p{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 14px;
+}
+
+
+
+@media (min-width:320px){
+    .logo img{
+    width: 340px;
+    height: 200px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    
+
+    }
+
+}
+@media(min-width:768px){
+
+}
+@media(min-width:1024px){
+    .logo img{
+        width: 700px;
+        height: 500px;
+        padding-bottom: 1px;
+        padding-top: 0px;
+        }
+
+}
