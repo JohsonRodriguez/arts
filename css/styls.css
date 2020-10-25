@@ -49,6 +49,13 @@ body{
         height: auto;
     
     }
+    .menu{
+    
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
 
 /** css index fin*/
  
@@ -73,13 +80,7 @@ body{
    
 
 }
-.menu{
-    
-    width: 70%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-}
+
 .menu_letras{
     padding-top: 30px;
     width: 80%;
@@ -187,13 +188,10 @@ body{
     
     }
    
-    .menu {
-        display: flex;
-       
-    }
+    
     .menu div {
-        padding: 10px;
-        text-align: center;
+        padding: 20px;
+        
        
     }
     .link{
