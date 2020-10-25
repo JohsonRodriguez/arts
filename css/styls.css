@@ -37,13 +37,19 @@ body{
         display: flex;
         justify-content: space-around;
     }
+    .section1 div{
+        padding: 20px;
+    }
+    
+    .section2 img{
+        margin: 0 auto;
+        display: block;
+    }
+
 
 /** css index fin*/
  
  
-
-
-
 @media (min-width:320px){
     body{
         overflow: visible;
