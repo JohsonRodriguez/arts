@@ -48,14 +48,6 @@ background: radial-gradient(circle, rgba(66,147,212,1) 0%, rgba(18,68,140,1) 100
     
 }
 
-.section2 img{
-    margin: 0 auto;
-    display: block;
-   
-
-}
-
-
 @media (min-width:320px){
     .section2 img{
       padding-top: 90px;
