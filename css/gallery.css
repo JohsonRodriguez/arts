@@ -1,4 +1,12 @@
+@import url(fuentes.css);
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
 .gallery div{
     margin: 0 auto;
     display: block;
@@ -20,25 +28,11 @@
 .volver a{
     text-decoration: none;
     color: #666666;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Nunito;
     font-size: 20px;
     margin: 0 auto;
 
 }
 
-.logodiploma img{
-    margin: 0 auto;
-    display: block;
-    width: 520px;
-    height: 350px;
-    padding-bottom: 1px;
 
-}
-.logodiploma div p{
-    width: 70%;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    font-family: "Nunito";
-    font-size: 14px;
-}
+

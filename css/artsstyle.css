@@ -8,7 +8,7 @@
 
 body{
     background:#FFFFFF;
-    overflow: hidden;
+    
 }
 
 /** css index inicio*/
@@ -51,11 +51,7 @@ body{
  
  
 @media (min-width:320px){
-    body{
-        overflow: visible;
-        width: 100%;
-        height: 100%;
-    }
+  
     .section2{
         margin-top: -50px;
     }

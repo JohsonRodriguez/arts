@@ -9,7 +9,6 @@
 }
 body{
     background:#FFFFFF;
-    overflow: hidden;
 }
 /** css index inicio*/
 
@@ -61,12 +60,8 @@ body{
 
 
 @media (min-width:320px){
-    body{
-        
-        overflow: visible;
-    }
     .logo img{
-    width: 340px;
+    width: 320px;
     height: 240px;
     padding-bottom: 10px;
     padding-top: 20px;
@@ -83,6 +78,13 @@ body{
 
 }
 @media(min-width:768px){
+    .logo img{
+        width: 600px;
+        height: 440px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+       
+        }
 
 }
 @media(min-width:1024px){

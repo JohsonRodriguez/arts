@@ -1,0 +1,94 @@
+@import url(fuentes.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background:#FFFFFF;
+    
+}
+/** css index inicio*/
+
+
+.logo img{
+    margin: 0 auto;
+    display: block;
+}
+
+.logo div p{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 14px;
+}
+
+.menu_letras{
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+  
+ }
+.menu_letras a{
+
+    text-decoration: none;
+    color: #F4A61D;
+    font-family:  'Thanks';
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+   
+}
+.return{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.return a{
+    text-decoration: none;
+    color: #666666;
+    font-family: "Nunito";
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+
+/** css index fin*/
+
+
+@media (min-width:320px){
+    
+    .logo img{
+    width: 310px;
+    height: 240px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+   
+    }
+  
+}
+@media(min-width:768px){
+    .logo img{
+        width: 580px;
+        height: 440px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+       
+        }
+
+}
+@media(min-width:1024px){
+    .logo img{
+        width: 520px;
+    height: 350px;
+    padding-bottom: 1px;
+        
+        padding-top: 0px;
+        }
+    }
