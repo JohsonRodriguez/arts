@@ -16,8 +16,8 @@
 }
 
 body{
-    background-color: #f7ce68;
-background-image: linear-gradient(62deg, #f7ce68 0%, #F7CE68 100%);
+    background-color: #FFFFB9;
+background-image: linear-gradient(62deg, #FFFFB9 0%, #F7CE68 100%);
 
 
     
@@ -66,7 +66,7 @@ background-image: linear-gradient(62deg, #f7ce68 0%, #F7CE68 100%);
 .menu_letras a{
 
     text-decoration: none;
-    color: #F4A61D;
+    color: #FFFFB9;
     font-family:  'Thanks';
     font-size: 20px;
     font-weight: bold;
@@ -87,28 +87,6 @@ background-image: linear-gradient(62deg, #f7ce68 0%, #F7CE68 100%);
     font-size: 20px;
     margin: 0 auto;
 }
-
-.link1{
-    
-    width: 180px;
-    height: 70px;
-}
-.link2{
-    
-    width: 200px;
-    height: 70px;
-}
-.link3{
-    
-    width: 200px;
-    height: 70px;
-}
-.link4{
-    
-    width: 250px;
-    height: 70px;
-}
-
 
 
 .pyp img{
@@ -197,8 +175,8 @@ background-image: linear-gradient(62deg, #f7ce68 0%, #F7CE68 100%);
         padding: 10px;
         margin: 0 auto;
         display: block;
-        width: 850px;
-        height: 560px;
+        width: 720px;
+        height: 150px;
     
     }
     .insignia{
@@ -211,14 +189,71 @@ background-image: linear-gradient(62deg, #f7ce68 0%, #F7CE68 100%);
         height: 50px;
     }
     .ib{
-        width: 70px;
-        height: 70px;
+        width: 130px;
+        height: 90px;
     }
     .menu div {
         margin-top: -30px;
         padding: 5px;
         display: flex;
        
+    }
+    .cuerpo{
+        padding-top: 50px;
+        width: 1300px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .cuerpo p {
+        padding: 20px;
+        width: 1000px;
+        margin: 0 auto;
+        font-size: 25px;
+        text-align: justify;
+
+    }
+    .cuerpo img{
+        margin: 0 auto;
+        width: 220px;
+        height: 200px;
+    }
+    .link1{
+    
+        width: 180px;
+        height: 170px;
+    }
+    .link2{
+        
+        width: 290px;
+        height: 170px;
+    }
+    .link3{
+        
+        width: 200px;
+        height: 170px;
+    }
+
+    .footer div p{
+        margin: 0 auto;
+        display: block;
+    }
+
+    .footer div{
+        width: 80%;
+        background-color: #ECFAFF;
+        margin: 0 auto;
+        box-shadow: 0px 0px 5px 1px blue;
+        
+
+    }
+    .p1{
+        margin: 0 auto;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    .p2{
+        text-align: center;
     }
     
     
